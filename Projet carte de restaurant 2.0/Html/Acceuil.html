@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="/Css/Acceuil.css">
+        <script type="text/javascript" src="/Js/Acceuil.Js"></script>
+        <title>Carte du restaurant japonais</title>
+    
+    </head>
+
+    <body>
+
+
+        <h1 class="text-center">Drew san</h1>
+        
+        
+        <div class="nav">
+                <li >menu</li>
+                <li style="float:right; font-size: xx-large; position: top;" >Prix total : <span id="total"></span>€</h2> </li>
+            <li style="float:right"><button onclick="calculateTotal()" class="bout">total</button></li>
+
+        
+        
+    </div>
+        <h2>Carte du restaurant japonais</h2>
+
+        
+        <h3 style="font-size: xx-large;">Entrées</h3>
+
+
+        <ul>
+            <li>
+                <img src="/Image/bol-edamame.jpg" style="width: 200px">
+                <input class="case" type="checkbox" name="Edamane" value="4,00" /> Edamane(4€)</li>
+            <li>
+                <img src="/Image/Saumon fumé.jpg" style="width:200px">
+                <input class="case" type="checkbox" name="Saumon fumé" value="5,00" /> Saumon fumé(5€)</li>
+                
+            <li>
+                <img src="/Image/Gyoza.jpg" style="width:300px">
+                <input class="case" type="checkbox" name="Gyoza" value="5,00" /> Gyoza(5€)</li>
+            <li>
+                <img src="/Image/agedashi-tofu-.jpg" style="width:200px">
+                <input class="case" type="checkbox" name="Agedashi Tofu" value="7,00" /> Agedashi Tofu(7€)</li>
+        </ul>
+        
+
+        <h4 style="font-size: xx-large;">Plats principaux</h4>
+        
+
+        <ul>
+            <li>
+                <img src="/Image/Sushi.jpg" style="width:200px">
+                <input class="case" type="checkbox" name="Sushi" value="10,00" id="Sushi" /> Sushi(10€)</li>
+            <li>
+                <img src="/Image/Sashimi.jpg" style="width:350px">
+                <input class="case" type="checkbox" name="Sashimi" value="8,00" /> Sashimi(8€)</li>
+            <li>
+                <img src="/Image/Ramen.jpg" style="width:300px">
+                <input class="case" type="checkbox" name="Ramen" value="12,00" /> Ramen(12€)</li>
+            <li>
+                <img src="/Image/Tempura.jpg" style="width:300px">
+                <input class="case" type="checkbox" name="Tempura" value="8,00" />Tempura(8€)</li>
+
+        </ul>
+        
+        <h5 style="font-size: xx-large;">Desserts</h5>
+        
+        <ul>
+            <li>
+                <img src="/Image/Dorayaki.jpg" style="width:200px">
+                <input class="case" type="checkbox" name="Dorayaki" value="5,00" /> Dorayaki(5€)</li>
+            <li>
+                <img src="/Image/Mochi.jpg" style="width:400px">
+                <input class="case" type="checkbox" name="Mochi" value="5,00"   /> Mochi(5€)</li>
+            <li>
+                <img src="/Image/Dango.jpg" style="width:300px">
+                <input class="case" type="checkbox" name="Dango" value="3,00" /> Dango(3€)</li>
+        </ul>
+
+    </body>
+</html>
